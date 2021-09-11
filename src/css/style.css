@@ -60,3 +60,12 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+.photoboard {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .1rem;
+}
+
+.pb {
+  color: white;
+}
