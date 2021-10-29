@@ -41,7 +41,7 @@ function Layout({ children }) {
                     <svg className="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
                     {/* <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" fill="rgb(0,0,0)" /> */}
                     {/* <path className="plane-take-off" d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "/> */}
-                    </svg> photobo<a className="h-8 fill-current inline font-thin photoboard text-purple-600">AR</a>d
+                    </svg> storybo<a className="h-8 fill-current inline font-thin photoboard text-purple-600">AR</a>d
                   </a>
                 </div>
 
@@ -61,10 +61,10 @@ function Layout({ children }) {
                       <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline font-thin photoboard py-2 px-4" href="https://www.linkedin.com/in/dseamusryan/">Contact</a>
                     </li>
                   </ul>
-                  <form action={data.site.siteMetadata.github}>
+                  {/* <form action={data.site.siteMetadata.github}> */}
                     <button type="submit" id="navAction" 
                             className="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 font-thin photoboard gradient text-white">Demo</button>
-                  </form>
+                  {/* </form> */}
 
                 </div>
               </div>
@@ -274,13 +274,13 @@ function Layout({ children }) {
                             <p className="uppercase text-gray-500 pb photoboard md:mb-6">Company</p>
                             <ul className="list-reset mb-6">
                                 <li className="mt-2 block mr-2 md:block md:mr-0">
-                                    <p className="no-underline text-gray-800">Photoboard</p>
+                                    <p className="no-underline text-white-800">storyboardAR</p>
                                 </li>
                                 <li className="mt-2 block mr-2 md:block md:mr-0">
-                                    <a href="https://studioochi.com" className="no-underline  text-gray-800">3D models provided by Studio Ochi</a>
+                                    <a href="https://studioochi.com" className="no-underline  text-white-800">3D models provided by Studio Ochi</a>
                                 </li>
                                 <li className="mt-2 block mr-2 md:block md:mr-0">
-                                    <a href="https://viromedia.com/viroreact" className="no-underline text-gray-800 ">Powered by Viro React</a>
+                                    <a href="https://viromedia.com/viroreact" className="no-underline text-white-800 ">Powered by Viro React</a>
                                 </li>
                             </ul>
                         </div>
