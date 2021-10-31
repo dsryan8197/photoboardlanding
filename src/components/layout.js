@@ -118,6 +118,7 @@ function Layout({ children }) {
               </svg>
             </div>
 
+
     <div className="bg-white justify-center items-start text-center ">
                  <img className="w-3/12 inline-block justify-center items-center md:w-2/12 p-5 " src={two} />
                  {/* <p>Ths best app Ive ever seen</p> */}
