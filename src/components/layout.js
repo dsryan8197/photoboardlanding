@@ -10,6 +10,8 @@ import qrcode from "../images/qr_code_1.png"
 import slate from "../images/slate1.png"
 import gooogle from "../images/gooogle.png"
 import '../css/style.css'
+import one from '../../storyboard2copy.gif'
+import two from '../../storyboardfinal.gif'
 
 function Layout({ children }) {
   return (
@@ -114,6 +116,12 @@ function Layout({ children }) {
               </g>
               </g>
               </svg>
+            </div>
+
+    <div className="bg-white justify-center items-start text-center ">
+                 <img className="w-3/12 inline-block justify-center items-center md:w-2/12 p-5 " src={two} />
+                 {/* <p>Ths best app Ive ever seen</p> */}
+                 <img className="w-6/12 inline-block justify-center items-center md:w-5/12 p-5 " src={one} />
             </div>
 
             {/* Alternate features */}
