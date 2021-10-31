@@ -124,6 +124,7 @@ function Layout({ children }) {
                  <img className="w-6/12 inline-block justify-center items-center md:w-5/12 p-5 " src={one} />
             </div>
 
+
             {/* Alternate features */}
             <section className="bg-white border-b py-8">
               <div className="container mx-auto flex flex-wrap pt-4 pb-12">
