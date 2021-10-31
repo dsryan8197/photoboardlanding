@@ -120,9 +120,9 @@ function Layout({ children }) {
 
 
     <div className="bg-white justify-center items-start text-center ">
-                 <img className="w-3/12 inline-block justify-center items-center md:w-2/12 p-5 " src={two} />
+                 <img className="w-6/12 inline-block justify-center items-center md:w-2/12 p-5 " src={two} />
                  {/* <p>Ths best app Ive ever seen</p> */}
-                 <img className="w-6/12 inline-block justify-center items-center md:w-5/12 p-5 " src={one} />
+                 <img className="w-11/12 inline-block justify-center items-center md:w-5/12 p-5 " src={one} />
             </div>
 
 
